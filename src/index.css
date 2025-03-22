@@ -18,3 +18,15 @@
 .float-combined-animation {
   animation: float-combined 5s ease-in-out infinite;
 }
+
+.tea-type-card,
+.tea-flavor-card {
+  transition: transform 0.5s ease-in-out;
+}
+
+@media (max-width: 640px) {
+  .tea-type-card,
+  .tea-flavor-card {
+    width: 100%;
+  }
+}

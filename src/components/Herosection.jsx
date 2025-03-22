@@ -17,9 +17,8 @@ const HeroSection = () => {
               Welcome to LAVENDRA TEA
             </h1>
             <p className="text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto">
-              Experience the finest collection of premium teas, handpicked from
-              the best tea gardens. Discover a world of authentic flavors and
-              aromatic blends.
+            The best tea in the world is the latest flavor brought from our Sri Lankan tea.
+            Now you can  enjoy the taste of lavendra tea made from the best to leaves grown in the fertile tea estates of Si Lanka 
             </p>
             <div className="space-x-4">
               <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300">
@@ -46,3 +45,8 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+
+// LAVENDRA TEA 
+// The best tea in the world is the latest flavor brought from our Sri Lankan tea. 
+// Now you can  enjoy the taste of lavendra tea made from the best to leaves grown in the fertile tea estates of Si Lanka 

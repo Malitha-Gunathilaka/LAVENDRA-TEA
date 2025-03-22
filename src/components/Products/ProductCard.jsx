@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductCard = ({ product }) => (
   <div className="overflow-hidden rounded-2xl shadow-xl bg-white">
-    <div className="h-60 overflow-hidden">
+    <div className="h-80 overflow-hidden">
       <img
         src={product.image}
         alt={product.type}
@@ -17,7 +17,9 @@ const ProductCard = ({ product }) => (
           <h3 className="font-semibold mb-1">Flavors:</h3>
           <ul className="space-y-1">
             {product.flavors.map((flavor, i) => (
-              <li key={i} className="text-gray-600">• {flavor}</li>
+              <li key={i} className="text-gray-600">
+                • {flavor}
+              </li>
             ))}
           </ul>
         </div>
