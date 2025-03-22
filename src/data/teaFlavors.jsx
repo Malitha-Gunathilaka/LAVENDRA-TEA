@@ -12,7 +12,7 @@ export const teaFlavors = [
       image: "/Products images/earl-grey-tea.jpg",
     },
     {
-        type: "Cinnamon",
+        type: "Earl",
         description: "Warm and aromatic spice flavor",
         price: "$7.99",
         image: "/Products images/cinnamon-tea.jpg",
