@@ -6,11 +6,10 @@ const HeroSection = () => {
   return (
     <div id="heroSection">
       <section className="relative min-h-screen pt-16">
-        {" "}
         {/* Added pt-16 for navbar height */}
-        <div className="absolute inset-0 bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(${teaBackground})` }}></div>
+        <div className="absolute inset-0 bg-[url('/bgimages/tea-background.png')] bg-cover bg-center bg-no-repeat"></div>
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/50"></div>{" "}
+        <div className="absolute inset-0 bg-black/50"></div>
         {/* Using modern opacity syntax */}
         {/* Content */}
         <div className="relative flex flex-col items-center justify-center h-full py-12">
