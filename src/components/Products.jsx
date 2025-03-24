@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { teaTypes } from "../data/teaTypes";
 import { teaFlavors } from "../data/teaFlavors";
-import ProductCard from "./Products/ProductCard";
+import ProductCard from "./Productscard/ProductCard";
 
 const Products = () => {
   const [teaTypeIndex, setTeaTypeIndex] = useState(0);
