@@ -1,4 +1,6 @@
 import React from "react";
+import teaBackground from '/bgimages/tea-background.png';  // Adjust path as needed
+
 
 const HeroSection = () => {
   return (
@@ -6,7 +8,7 @@ const HeroSection = () => {
       <section className="relative min-h-screen pt-16">
         {" "}
         {/* Added pt-16 for navbar height */}
-        <div className="absolute inset-0 bg-[url('bgimages/tea-background.png')] bg-cover bg-center bg-no-repeat"></div>
+        <div className="absolute inset-0 bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(${teaBackground})` }}></div>
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/50"></div>{" "}
         {/* Using modern opacity syntax */}
