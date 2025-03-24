@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div className="relative flex flex-col items-center justify-center h-full py-12">
           <div className="container px-4 mx-auto text-center">
             <h1 className="mb-6 text-4xl font-bold text-white md:text-6xl">
-              Welcome to LAVENDRA TEA1
+              Welcome to LAVENDRA TEA
             </h1>
             <p className="max-w-2xl mx-auto mb-8 text-lg text-white md:text-xl">
             The best tea in the world is the latest flavor brought from our Sri Lankan tea.
