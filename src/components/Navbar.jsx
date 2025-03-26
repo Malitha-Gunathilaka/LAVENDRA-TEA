@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../assets/logo.png'; // Add your logo path here
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,13 +13,19 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black/95 backdrop-blur-sm text-white py-4 px-6 fixed w-full top-0 z-50">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <h1 className="text-2xl font-bold tracking-wider hover:text-green-600 transition-colors">
-          <a onClick={() => scrollToSection('heroSection')} className="cursor-pointer"> 
-            LAVENDRA TEA
-          </a>
-        </h1>
+    <nav className="fixed top-0 z-50 w-full px-6 py-4 text-white bg-black/95 backdrop-blur-sm">
+      <div className="flex items-center justify-between mx-auto max-w-7xl">
+      <h1 className="flex items-center gap-2 text-2xl font-bold tracking-wider">
+  <a onClick={() => scrollToSection('heroSection')} 
+     className="flex items-center cursor-pointer group"> 
+    <img 
+      src={logo} 
+      alt="Lavendra Tea Logo" 
+      className="w-8 h-8 mr-3 transition-all duration-300 ease-in-out hover:scale-110 animate-fadeIn group-hover:rotate-6" 
+    />
+    <span className="transition-colors hover:text-green-600">LAVENDRA TEA</span>
+  </a>
+</h1>
         
         {/* Mobile menu button */}
         <button
@@ -36,24 +43,24 @@ const Navbar = () => {
         </button>
 
         {/* Desktop menu */}
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="items-center hidden space-x-8 md:flex">
           <a 
             onClick={() => scrollToSection('products')}
-            className="hover:text-green-600 transition-colors tracking-wide cursor-pointer"
+            className="tracking-wide transition-colors cursor-pointer hover:text-green-600"
           >
             Products
           </a>
           
           <a 
             onClick={() => scrollToSection('footer')}
-            className="hover:text-green-600 transition-colors tracking-wide cursor-pointer"
+            className="tracking-wide transition-colors cursor-pointer hover:text-green-600"
           >
             About Us
           </a>
           
           <a 
             onClick={() => scrollToSection('footer')}
-            className="hover:text-green-600 transition-colors tracking-wide cursor-pointer"
+            className="tracking-wide transition-colors cursor-pointer hover:text-green-600"
           >
             Contact
           </a>
@@ -61,28 +68,28 @@ const Navbar = () => {
 
         {/* Mobile menu panel */}
         {isOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-black/95 p-4">
+          <div className="absolute left-0 right-0 p-4 md:hidden top-full bg-black/95">
             <a 
               onClick={() => scrollToSection('footer')}
-              className="block py-2 hover:text-green-600 transition-colors cursor-pointer"
+              className="block py-2 transition-colors cursor-pointer hover:text-green-600"
             >
               About Us
             </a>
             <a 
               onClick={() => scrollToSection('products')}
-              className="block py-2 hover:text-green-600 transition-colors cursor-pointer"
+              className="block py-2 transition-colors cursor-pointer hover:text-green-600"
             >
               Products
             </a>
             <a 
               onClick={() => scrollToSection('reviews')}
-              className="block py-2 hover:text-green-600 transition-colors cursor-pointer"
+              className="block py-2 transition-colors cursor-pointer hover:text-green-600"
             >
               Reviews
             </a>
             <a 
               onClick={() => scrollToSection('footer')}
-              className="block py-2 hover:text-green-600 transition-colors cursor-pointer"
+              className="block py-2 transition-colors cursor-pointer hover:text-green-600"
             >
               Contact
             </a>

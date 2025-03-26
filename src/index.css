@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* Existing float animation */
 @keyframes float-combined {
   0%, 100% {
     transform: translate(0, 0);
@@ -15,6 +16,52 @@
   }
 }
 
+/* Logo animations */
+@keyframes logoSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes logoFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes logoFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation classes */
+.logo-animate {
+  animation: logoFadeIn 0.5s ease-out forwards,
+             logoFloat 3s ease-in-out infinite;
+}
+
+.logo-spin {
+  animation: logoSpin 2s linear infinite;
+}
+
+.logo-hover:hover {
+  transform: scale(1.1) rotate(10deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Existing classes */
 .float-combined-animation {
   animation: float-combined 5s ease-in-out infinite;
 }
