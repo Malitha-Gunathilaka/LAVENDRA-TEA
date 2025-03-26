@@ -2,12 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white p-8" id="footer">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-12 gap-8">
+    <footer className="p-8 text-white bg-black" id="footer">
+      <div className="container grid grid-cols-1 gap-8 mx-auto md:grid-cols-12">
         {/* // Add your about us information here */}
-        <div className="text-center md:text-left  md:col-span-6">
-          <h3 className="text-3xl font-bold mb-4"> About us </h3>
-          <h5 className="text-xl font-bold mb-2">Pure Ceylon Tea, Crafted with Passion</h5>
+        <div className="text-center md:text-left md:col-span-6">
+          <h3 className="mb-4 text-3xl font-bold"> About us </h3>
+          <h5 className="mb-2 text-xl font-bold">Pure Ceylon Tea, Crafted with Passion</h5>
           <p className="text-gray-300">
           Nestled in the lush, vibrant hills of Sri Lanka, LAVENDRA TEA brings you the essence of Ceylon’s finest teas. With a dedication to tradition and quality, we proudly offer a rich collection of premium, ethically sourced teas that embody the purest flavors of Sri Lanka. Our commitment to excellence and sustainability ensures that every cup of LAVENDRA TEA delivers an unforgettable experience, infused with heritage and crafted with care. Discover the true taste of Ceylon with us. 
           </p>
@@ -15,30 +15,30 @@ const Footer = () => {
 
 {/* // Add your contact information here */}
         <div className="text-center md:col-span-3">
-          <h3 className="text-3xl font-semibold mb-4">Contact Us</h3>
-          <div className="text-center text-xl" >
-            <div className="space-y-3 inline-block text-left">
+          <h3 className="mb-4 text-3xl font-semibold">Contact Us</h3>
+          <div className="text-xl text-center" >
+            <div className="inline-block space-y-3 text-left">
               <div className="flex items-start">
-                <i className="fas fa-envelope w-10 mt-1 text-gray-300"></i>
+                <i className="w-10 mt-1 text-gray-300 fas fa-envelope"></i>
                 <a
                   href="mailto:info@lavendratea.com"
-                  className="text-gray-300 hover:text-green-500 transition-colors"
+                  className="text-gray-300 transition-colors hover:text-green-500"
                 >
                   info@lavendratea.com
                 </a>
               </div>
               <div className="flex items-start">
-                <i className="fas fa-phone w-10 mt-1 text-gray-300"></i>
+                <i className="w-10 mt-1 text-gray-300 fas fa-phone"></i>
                 <a
                   href="tel:+94766987618"
-                  className="text-gray-300 hover:text-green-500 transition-colors"
+                  className="text-gray-300 transition-colors hover:text-green-500"
                 >
                   +94 766 987 618
                 </a>
               </div>
               <div className="flex items-start">
-                <i className="fas fa-map-marker-alt w-10 mt-1 text-gray-300"></i>
-                <address className="text-gray-300 not-italic">
+                <i className="w-10 mt-1 text-gray-300 fas fa-map-marker-alt"></i>
+                <address className="not-italic text-gray-300">
                   Lavendra Tea, <br />
                   F39, Aalupotha Ussapitiya,
                   <br />
@@ -52,31 +52,31 @@ const Footer = () => {
         {/* // Add your contact information here */}
 
         <div className="text-center md:text-center md:col-span-3">
-          <h3 className="text-3xl font-semibold mb-10 ">Follow Us</h3>
+          <h3 className="mb-10 text-3xl font-semibold ">Follow Us</h3>
           <div className="flex justify-center md:justify-end space-x-25 ">
             <a
-              href="#"
-              className="text-gray-300 hover:text-green-500 transition-colors"
+              href="https://www.facebook.com/share/16AXLXre26/?mibextid=qi2Omg"
+              className="text-gray-300 transition-colors hover:text-green-500"
             >
-              <i className="fab fa-facebook text-5xl"></i>
+              <i className="text-5xl fab fa-facebook"></i>
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:text-green-500 transition-colors"
+              className="text-gray-300 transition-colors hover:text-green-500"
             >
-              <i className="fab fa-instagram text-5xl"></i>
+              <i className="text-5xl fab fa-instagram"></i>
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:text-green-500 transition-colors"
+              className="text-gray-300 transition-colors hover:text-green-500"
             >
-              <i className="fab fa-twitter text-5xl"></i>
+              <i className="text-5xl fab fa-twitter"></i>
             </a>
           </div>
         </div>
       </div>
 
-      <div className="border-t border-gray-800 mt-8 pt-4 text-center">
+      <div className="pt-4 mt-8 text-center border-t border-gray-800">
         <p>&copy; 2025 LAVENDRA TEA. All rights reserved.</p>
       </div>
     </footer>
