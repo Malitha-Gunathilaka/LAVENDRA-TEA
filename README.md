@@ -5,7 +5,7 @@ A modern, responsive e-commerce website for Lavendra Tea, showcasing premium Cey
 ## Features
 
 - **Responsive Navigation**: Full-featured navigation bar with mobile menu support
-- **Dynamic Product Showcase**: Interactive product carousel displaying various tea types
+- **Dynamic Product Showcase**: Interactive product carousel displaying various tea types  
 - **Hero Section**: Engaging hero section with background video
 - **Modern UI**: Built with Tailwind CSS for a clean, modern design
 - **Smooth Scrolling**: Section-based navigation with smooth scroll behavior
@@ -14,16 +14,9 @@ A modern, responsive e-commerce website for Lavendra Tea, showcasing premium Cey
 
 - React.js
 - Vite
-- Tailwind CSS
+- Tailwind CSS 
 - React Icons
 - Font Awesome
-
-## Getting Started
-
-1. **Clone the repository**
-```sh
-git clone [repository-url]
-cd lavendra-tea
 
 ## Getting Started
 
@@ -48,16 +41,16 @@ cd lavendra-tea
     npm run build
     ```
 
-## Project Structure
+## Project Structure 
 
 - **Configuration**:
-  - **Tailwind**: Configure styles in `tailwind.config.js`.
-  - **Vite**: Modify build settings in `vite.config.js`.
-  - **ESLint**: Adjust linting rules in `eslint.config.js`.
+  - **Tailwind**: Configure styles in `tailwind.config.js`
+  - **Vite**: Modify build settings in `vite.config.js`
+  - **ESLint**: Adjust linting rules in `eslint.config.js`
 
 ## Contributing
 
-1. **Fork the repository**.
+1. **Fork the repository**
 2. **Create a feature branch**:
     ```sh
     git checkout -b feature/your-feature-name
@@ -70,7 +63,7 @@ cd lavendra-tea
     ```sh
     git push origin feature/your-feature-name
     ```
-5. **Open a Pull Request**.
+5. **Open a Pull Request**
 
 ## License
 
@@ -79,5 +72,5 @@ All rights reserved. © 2025 LAVENDRA TEA.
 ## Contact
 
 - **Email**: info@lavendratea.com
-- **Phone**: +94 766 987 618
+- **Phone**: +94 766 987 618  
 - **Address**: Lavendra Tea, F39, Aalupotha Ussapitiya, Mawanelle, Sri Lanka
