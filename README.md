@@ -71,6 +71,5 @@ All rights reserved. © 2025 LAVENDRA TEA.
 
 ## Contact
 
-- **Email**: info@lavendratea.com
-- **Phone**: +94 766 987 618  
-- **Address**: Lavendra Tea, F39, Aalupotha Ussapitiya, Mawanelle, Sri Lanka
+- **Email**: malithavisada@gmail.com
+- **Phone**: +94 761 621 101 
