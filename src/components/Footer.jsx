@@ -24,7 +24,7 @@ const Footer = () => {
                   href="mailto:info@lavendratea.com"
                   className="text-gray-300 transition-colors hover:text-green-500"
                 >
-                  info@lavendratea.com
+                  malitha@lavendratea.com
                 </a>
               </div>
               <div className="flex items-start">

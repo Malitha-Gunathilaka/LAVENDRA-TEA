@@ -16,7 +16,7 @@ const Products = () => {
   const getVisibleItems = (items, currentIndex) => {
     // Show 1 item on mobile, 2 on tablet, 4 on desktop
     const itemsToShow = window.innerWidth < 640 ? 1 : 
-                       window.innerWidth < 768 ? 2 : 2;
+                       window.innerWidth < 768 ? 2 : 4;
     
     const result = [];
     for (let i = 0; i < itemsToShow; i++) {
@@ -64,8 +64,8 @@ const Products = () => {
         </div>
       </div>
 
-      {/* Tea Flavors section with same responsive layout */}
-      {/* <div className="mb-8">
+      {/* 5- */}
+      <div className="mb-8">
         <h2 className="mb-4 text-3xl font-bold">Tea Flavors</h2>
         <div className="relative">
           <button 
@@ -91,7 +91,7 @@ const Products = () => {
             <FaChevronRight size={24} />
           </button>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };
