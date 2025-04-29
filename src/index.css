@@ -79,3 +79,9 @@
 }
 
 
+
+html {
+  scroll-padding-top: 50px; /* Adjust this value to match your navbar height */
+  scroll-behavior: smooth;
+}
+

@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.0.15",
+    "framer-motion": "^12.9.2",
     "lavendra-tea": "file:",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
