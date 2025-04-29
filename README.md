@@ -9,20 +9,26 @@ A modern, responsive e-commerce website for Lavendra Tea, showcasing premium Cey
 - **Hero Section**: Engaging hero section with background video
 - **Modern UI**: Built with Tailwind CSS for a clean, modern design
 - **Smooth Scrolling**: Section-based navigation with smooth scroll behavior
+- **Shopping Cart**: Fully functional cart with real-time updates
+- **User Authentication**: Secure login and registration system
+- **Product Filtering**: Advanced search and filter capabilities
 
 ## Tech Stack
 
-- React.js
-- Vite
-- Tailwind CSS 
+- React.js 18
+- Vite 4.x
+- Tailwind CSS 3.x
 - React Icons
 - Font Awesome
+- Redux Toolkit
+- React Router DOM
+- Axios
 
 ## Getting Started
 
 1. **Clone the repository**:
     ```sh
-    git clone [repository-url]
+    git clone https://github.com/yourusername/lavendra-tea.git
     cd lavendra-tea
     ```
 
@@ -31,22 +37,43 @@ A modern, responsive e-commerce website for Lavendra Tea, showcasing premium Cey
     npm install
     ```
 
-3. **Run the development server**:
+3. **Set up environment variables**:
+    ```sh
+    cp .env.example .env
+    ```
+
+4. **Run the development server**:
     ```sh
     npm run dev
     ```
 
-4. **Build for production**:
+5. **Build for production**:
     ```sh
     npm run build
     ```
 
 ## Project Structure 
 
-- **Configuration**:
-  - **Tailwind**: Configure styles in `tailwind.config.js`
-  - **Vite**: Modify build settings in `vite.config.js`
-  - **ESLint**: Adjust linting rules in `eslint.config.js`
+```
+lavendra-tea/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── hooks/
+│   ├── store/
+│   └── utils/
+├── public/
+├── tests/
+└── config/
+```
+
+## Development
+
+- **Code Style**: Follow Prettier and ESLint configurations
+- **Commit Messages**: Use conventional commit format
+- **Testing**: Write unit tests for new features
+- **Documentation**: Update README for significant changes
 
 ## Contributing
 
@@ -57,7 +84,7 @@ A modern, responsive e-commerce website for Lavendra Tea, showcasing premium Cey
     ```
 3. **Commit your changes**:
     ```sh
-    git commit -m "Add your message here"
+    git commit -m "feat: add your feature description"
     ```
 4. **Push to the branch**:
     ```sh
@@ -71,5 +98,7 @@ All rights reserved. © 2025 LAVENDRA TEA.
 
 ## Contact
 
+- **Website**: [www.lavendratea.com](https://www.lavendratea.com)
 - **Email**: malithavisada@gmail.com
-- **Phone**: +94 761 621 101 
+- **Phone**: +94 761 621 101
+- **Address**: Colombo, Sri Lanka

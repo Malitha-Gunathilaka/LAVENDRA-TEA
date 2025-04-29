@@ -41,18 +41,11 @@ const About = () => {
             
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-gray-300">
-                Nestled in the lush, vibrant hills of Sri Lanka, LAVENDRA TEA brings
-                you the essence of Ceylon's finest teas. With a dedication to
-                tradition and quality, we proudly offer a rich collection of
-                premium, ethically sourced teas that embody the purest flavors of
-                Sri Lanka.
+              From the emerald tea gardens of Sri Lanka comes a brew that captures the soul of the island. At LAVENDRA TEA, we pour generations of passion and tradition into every leaf. Our teas are ethically grown, delicately hand-harvested, and masterfully blended to deliver unmatched purity and taste.
               </p>
               
               <p className="text-lg leading-relaxed text-gray-300">
-                Our commitment to excellence and sustainability ensures
-                that every cup of LAVENDRA TEA delivers an unforgettable experience,
-                infused with heritage and crafted with care. Discover the true taste
-                of Ceylon with us.
+              With sustainability at our core and quality in every step, we invite you to experience the elegance of Pure Ceylon Tea—a timeless ritual reimagined for the modern tea lover. Let every cup transport you to the heart of Sri Lanka, where tea is more than a drink—it’s a way of life.
               </p>
             </div>
 

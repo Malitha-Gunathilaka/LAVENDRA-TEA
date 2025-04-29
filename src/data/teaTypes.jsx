@@ -4,14 +4,14 @@ export const teaTypes = [
     // flavors: ["Fruity", "Vanilla"],
     description: "Dust No.1",
     price: "100g - Rs 270.00 ",
-    image: "/Products images/dust no 2.jpg",
+    image: "/Products images/dust no 2.png",
   },
   {
     type: "Gold Tea",
     // flavors: ["Fruity", "Vanilla"],
     description: "Dust No.1",
     price: "50g - Rs 135.00",
-    image: "/Products images/dust no 2.jpg",
+    image: "/Products images/dust no 2.png",
   },
   // {
   //   type: "Black Tea",
