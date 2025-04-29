@@ -8,7 +8,6 @@ export const teaTypes = [
   },
   {
     type: "Gold Tea",
-    // flavors: ["Fruity", "Vanilla"],
     description: "Dust No.1",
     price: "50g - Rs 135.00",
     image: "/Products images/dust no 2.png",
